@@ -1,8 +1,6 @@
-import os
-
-def get_cpu_count():
-    return os.cpu_count()
+import psutil
 
 def show_cpu_info():
     print("\n=== CPU Information ===")
-    print(f"CPU Cores: {get_cpu_count()}")
+    print(f"CPU Usage: {psutil.cpu_percent(interval=1)}%")
+    print(f"CPU Cores: {psutil.cpu_count()}")
