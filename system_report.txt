@@ -1,0 +1,12 @@
+
+SYSTEM DASHBOARD REPORT
+Generated: 2026-06-25 14:27:53.580791
+
+CPU Cores: 8
+
+RAM Total: 3.71 GB
+RAM Usage: 51.2 %
+
+Disk Total: 107.88 GB
+Disk Used : 43.47 GB
+Disk Free : 64.28 GB
